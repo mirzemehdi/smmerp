@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_alignParentTop="true"
+        android:id="@+id/appBar"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp"
+        android:elevation="0dp">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_gravity="top"
+            android:background="@android:color/transparent"
+            app:theme="@style/Widget.AppCompat.Toolbar">
+
+            <LinearLayout
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/tb_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:src="@drawable/ic_chevron_left_black_24dp" />
+
+                <TextView
+                android:text="LOGO"
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#15b83d"
+                android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/mainFrame"
+        android:layout_below="@id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="24dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@color/textColor"
+        android:textSize="32sp"
+        android:text="@string/login_with_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_layout"
+        android:layout_below="@id/login_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edtMail"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:textColorHint="@color/textColor"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="12dp"
+            android:hint="@string/email"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/pass_layout"
+        android:layout_below="@id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleEnabled="true">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edtPassword"
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:textColor="@color/textColor"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:text="@string/login"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/grey_button"
+        android:layout_below="@id/pass_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/progressBarLogin"
+            android:padding="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_below="@id/pass_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:text="@string/forgot_your_password"
+        android:layout_marginStart="24dp"
+        android:layout_below="@id/loginBtn"
+        android:layout_marginTop="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

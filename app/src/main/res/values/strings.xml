@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">ERP</string>
+    <string name="welcome">Welcome.\nThis is a login flow.</string>
+    <string name="login_with_email">Login with email</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password"><u>Forgot your password?</u></string>
+    <string name="done">DONE</string>
+    <string name="undone">UNDONE</string>
+    <string name="udone"><u>DONE</u></string>
+    <string name="uundone"><u>UNDONE</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="silver">Silver</string>
+    <string name="logo">LOGO</string>
+    <string name="en">EN</string>
+    <string name="date">Date:</string>
+    <string name="june">JUNE</string>
+    <string name="janury">JANUARY</string>
+    <string name="february">FEBRUARY</string>
+    <string name="march">MARCH</string>
+    <string name="april">APRIL</string>
+    <string name="may">MAY</string>
+    <string name="july">JULY</string>
+    <string name="august">AUGUST</string>
+    <string name="september">SEPTEMBER</string>
+    <string name="october">OCTOBER</string>
+    <string name="november">NOVEMBER</string>
+    <string name="december">DECEMBER</string>
+    <string name="digital_media">DIGITAL MEDIA</string>
+    <string name="facebook">Facebook</string>
+    <string name="todo">TODO</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="photo_video"><![CDATA[PHOTO & VIDEO]]></string>
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="sms_marketing">SMS MARKETING</string>
+    <string name="sms">SMS</string>
+    <string name="animation">ANIMATION</string>
+    <string name="influencer">INFLUENCER</string>
+    <string name="kiv">KIV</string>
+    <string name="tarix">Tarix</string>
+    <string name="movzu">Mövzu</string>
+    <string name="metn">Mətn</string>
+    <string name="reklam">Reklam Büdcəsi</string>
+    <string name="tesdiqle">Təsdiqlə</string>
+    <string name="lorem">Lorem İpsum Dolor Sita Amet Lorem İpsum Dolor Sit Amet olor Sita Amet Lorem İpsum Dolor Sit Amet</string>
+    <string name="tesdiq">Təsdiqləmək istədiyinizdən əminsinizmi?</string>
+    <string name="l_v_et">Ləğv et</string>
+    <string name="t_sdiql">Təsdiqlə</string>
+    <string name="exitDialogTitle">Logout</string>
+    <string name="exitDialogMessage">Are you sure  you want to logout?</string>
+    <string name="exitDialogNegativeBtnTxt">Cancel</string>
+    <string name="exitDialogPositiveBtnTxt">Yes</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="dones">You\'re Done</string>
+    <string name="irk_tin_ad">Şirkətin adı</string>
+    <string name="passHintInfo">Şifrə</string>
+    <string name="m_sul_xs">Məsul şəxs</string>
+    <string name="laq_n_mr_si">Əlaqə nömrəsi</string>
+    <string name="mail">Mail</string>
+    <string name="nvan">Ünvan</string>
+    <string name="sayt">Sayt</string>
+
+    <string-array name="languages">
+        <item>EN</item>
+        <item>RU</item>
+        <item>AZ</item>
+    </string-array>
+</resources>
